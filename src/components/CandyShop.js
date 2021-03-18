@@ -6,7 +6,7 @@ const CandyShop = () => {
     return (
         <section className="candy-shop-container">
             <h1>Gerts Godisbutik</h1>
-            <img src="./svg/008-candy-machine.svg" height="400" width="400"/>
+            <img src="./svg/008-candy-machine.svg" height="400" width="400" alt="candy-machine"/>
             <h3>Webbens bästa godisbutik</h3>
             <section className="candies-container">
                 {

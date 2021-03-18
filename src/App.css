@@ -11,7 +11,13 @@
   margin: 0 auto;
   text-align: center;
   gap: 1.5rem;
+}
 
+.candyinfo-container {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .App-logo {
