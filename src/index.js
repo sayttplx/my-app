@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CandyShop from './components/CandyShop';
+import CandyInfo from './components/CandyInfo';
+import NavBar from './components/NavBar';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+    <NavBar/>
+      <Route exact path="/" component={App}/>
+      <Route path="/candyshop" component={CandyShop}/>
+      <Route path="/candy:id" component={CandyInfo}/>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

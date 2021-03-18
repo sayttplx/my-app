@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Hallonskalle",
+        "id": 1,
+        "desc": "Halvt rosa halvt svart döskalle smakar hallon och laktrist",
+        "vegan": false
+    },
+    {
+        "title": "Hallonskalle Mini",
+        "id": 2,
+        "desc": "Halvt rosa halvt svart döskalle smakar hallon och laktrist",
+        "vegan": true
+    },
+    {
+        "title": "Dumle",
+        "id": 3,
+        "desc": "Choklad- och kolagodis",
+        "vegan": false
+    },
+    {
+        "title": "Fizzy Pops",
+        "id": 4,
+        "desc": "Surt godis i form av flaska",
+        "vegan": false
+    },
+    {
+        "title": "Hallonbåtar",
+        "id": 5,
+        "desc": "Hallonsmakande godis i form av en båt",
+        "vegan": false
+    },
+    {
+        "title": "Hallonbåtar",
+        "id": 6,
+        "desc": "Hallonsmakande godis i form av en båt",
+        "vegan": false
+    }
+    
+]
